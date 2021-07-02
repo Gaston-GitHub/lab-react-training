@@ -8,6 +8,15 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickeablePicture from './components/ClickeablePicture';
+import Dice from './components/Dice';
+import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
+import Facebook from './components/Facebook';
+import SignupPage from './components/SignupPage';
+
+
 
 function App() {
   return (
@@ -68,6 +77,30 @@ function App() {
       model: "Audi A3",
       licensePlate: "BE33ER"
       }} />
+      <LikeButton />
+      <ClickeablePicture
+      img='/img/persons/Maxence.png'
+      imgClicked='/img/persons/maxence-glasses.png'
+      />
+      <Dice />
+      <Carousel
+      imgs={[
+      'https://randomuser.me/api/portraits/women/1.jpg',
+      'https://randomuser.me/api/portraits/men/1.jpg',
+      'https://randomuser.me/api/portraits/women/2.jpg',
+      'https://randomuser.me/api/portraits/men/2.jpg'
+      ]}
+      />
+      <NumbersTable limit={12} />
+      <Facebook />
+      <SignupPage />
+
+
+      
+
+
+
+
 
 
     

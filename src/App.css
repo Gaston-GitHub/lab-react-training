@@ -125,3 +125,62 @@ code {
 .DriverCard .right > * {
   margin: 0;
 }
+
+.likeButton button {
+  background-color: blue;
+  border: 3px solid white;
+  height: 50px;
+  width: 200px;
+  font-family: inherit;
+  font-size: 2em;
+  color: white;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.clickablePicture img {
+  width: 100px;
+}
+
+.dice img {
+  width: 200px;
+}
+
+.numbersTable {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.numbersTable .number {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.facebook .profile {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  max-width: 500px;
+}
+.facebook .profile .picture img {
+  width: 100px;
+}
+
+.facebook .profile .data {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.signUpPage {
+  max-width: 500px;
+}
